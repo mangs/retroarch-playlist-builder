@@ -1,0 +1,24 @@
+{
+  "name": "@mangs/retroarch-playlist-builder",
+  "version": "1.0.0",
+  "description": "Generate Retroarch playlist JSON files via directory scan",
+  "author": "Eric L. Goldstein <elg2001@columbia.edu> (http://ericgoldstein.info/)",
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/mangs/retroarch-playlist-builder#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangs/retroarch-playlist-builder.git"
+  },
+  "engines": {
+    "node": "10.16.3"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "crc": "3.8.0",
+    "globby": "10.0.1"
+  }
+}
